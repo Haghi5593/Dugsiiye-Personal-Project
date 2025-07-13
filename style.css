@@ -862,6 +862,55 @@ form .main-button{
 
 }
 
+
+@media (max-width: 768px) {
+    .form-backg {
+        width: 100%;
+        height: auto;
+    }
+
+    .form-contact {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 20px auto;
+    }
+
+    iframe {
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-contact {
+        padding: 15px;
+        width: 95%;
+    }
+
+    iframe {
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .no-scroll {
     height: 100vh;
     overflow: hidden;
